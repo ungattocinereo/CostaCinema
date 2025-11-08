@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 42 26 12%; /* Warm cream base */
+    --foreground: 0 0 17%; /* Deep charcoal */
+
+    --card: 42 26 95%;
+    --card-foreground: 0 0 17%;
+
+    --popover: 42 26 95%;
+    --popover-foreground: 0 0 17%;
+
+    --primary: 30 34 45%; /* Vintage sepia */
+    --primary-foreground: 42 26 97%;
+
+    --secondary: 200 28 51%; /* Coastal blue */
+    --secondary-foreground: 42 26 97%;
+
+    --muted: 42 18 85%;
+    --muted-foreground: 0 0 45%;
+
+    --accent: 0 53 51%; /* Vintage red */
+    --accent-foreground: 42 26 97%;
+
+    --destructive: 0 84 60%;
+    --destructive-foreground: 42 26 97%;
+
+    --border: 30 18 75%;
+    --input: 30 18 75%;
+    --ring: 30 34 45%;
+
+    --radius: 0.5rem;
+
+    --chart-1: 200 28 51%;
+    --chart-2: 30 34 45%;
+    --chart-3: 0 53 51%;
+    --chart-4: 45 62 47%;
+    --chart-5: 0 0 17%;
+  }
+
+  .dark {
+    --background: 0 0 10%;
+    --foreground: 42 26 97%;
+
+    --card: 0 0 10%;
+    --card-foreground: 42 26 97%;
+
+    --popover: 0 0 10%;
+    --popover-foreground: 42 26 97%;
+
+    --primary: 42 26 97%;
+    --primary-foreground: 0 0 17%;
+
+    --secondary: 200 28 30%;
+    --secondary-foreground: 42 26 97%;
+
+    --muted: 0 0 20%;
+    --muted-foreground: 42 18 65%;
+
+    --accent: 0 53 40%;
+    --accent-foreground: 42 26 97%;
+
+    --destructive: 0 62 30%;
+    --destructive-foreground: 42 26 97%;
+
+    --border: 0 0 20%;
+    --input: 0 0 20%;
+    --ring: 42 26 97%;
+
+    --chart-1: 200 28 51%;
+    --chart-2: 30 34 65%;
+    --chart-3: 0 53 51%;
+    --chart-4: 45 62 47%;
+    --chart-5: 42 26 97%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Pacifico&display=swap');
+
+/* Custom utility classes */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .grain-texture {
+    position: relative;
+  }
+
+  .grain-texture::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='2.5' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .vintage-shadow {
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+  }
+}
