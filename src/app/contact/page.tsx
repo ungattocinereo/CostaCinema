@@ -14,7 +14,7 @@ export default function ContactPage() {
             Get In Touch
           </h1>
           <p className="text-lg text-vintage-sepia-light font-heading">
-            We'd love to hear from you
+            We&apos;d love to hear from you
           </p>
         </div>
         <div className="text-center text-muted-foreground">
