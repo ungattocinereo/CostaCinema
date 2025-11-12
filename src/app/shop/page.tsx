@@ -1,6 +1,5 @@
 "use client";
 
-import type { Metadata } from "next";
 import { useState } from "react";
 import { ShoppingBag, Shirt, Watch, Image, Sparkles } from "lucide-react";
 

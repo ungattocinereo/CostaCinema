@@ -55,7 +55,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-3xl font-display font-bold text-charcoal mb-4">1. Introduction</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Costiera Cinema ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
+              Costiera Cinema (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               This policy is in compliance with the European Union General Data Protection Regulation (GDPR) (EU) 2016/679 and Italian Legislative Decree no. 196/2003 (Privacy Code) as amended by Legislative Decree no. 101/2018.
@@ -248,7 +248,7 @@ export default function PrivacyPage() {
 
           {/* Children's Privacy */}
           <section>
-            <h2 className="text-3xl font-display font-bold text-charcoal mb-4">12. Children's Privacy</h2>
+            <h2 className="text-3xl font-display font-bold text-charcoal mb-4">12. Children&apos;s Privacy</h2>
             <p className="text-muted-foreground leading-relaxed">
               Our services are not directed to individuals under 18 years of age. We do not knowingly collect personal information from children. If you believe we have collected data from a minor, please contact us immediately.
             </p>
@@ -258,7 +258,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-3xl font-display font-bold text-charcoal mb-4">13. Changes to This Policy</h2>
             <p className="text-muted-foreground leading-relaxed">
-              We may update this Privacy Policy periodically. We will notify you of significant changes by posting the new policy on this page and updating the "Last updated" date. Your continued use of our services after changes constitutes acceptance of the updated policy.
+              We may update this Privacy Policy periodically. We will notify you of significant changes by posting the new policy on this page and updating the &quot;Last updated&quot; date. Your continued use of our services after changes constitutes acceptance of the updated policy.
             </p>
           </section>
 

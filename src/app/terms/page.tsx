@@ -56,7 +56,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-3xl font-display font-bold text-charcoal mb-4">1. General Information</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              These Terms and Conditions ("Terms") govern the sale of merchandise and use of services provided by Costiera Cinema ("we," "our," "us") through our website. By placing an order or using our services, you agree to be bound by these Terms.
+              These Terms and Conditions (&quot;Terms&quot;) govern the sale of merchandise and use of services provided by Costiera Cinema (&quot;we,&quot; &quot;our,&quot; &quot;us&quot;) through our website. By placing an order or using our services, you agree to be bound by these Terms.
             </p>
             <div className="bg-vintage-sepia/5 rounded-lg p-6">
               <p className="text-muted-foreground leading-relaxed">
@@ -99,7 +99,7 @@ export default function TermsPage() {
 
             <h3 className="text-xl font-heading font-semibold text-charcoal mb-3 mt-6">4.1 Product Information</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              We make every effort to display our products as accurately as possible. However, we cannot guarantee that your device's display of colors or product details will be completely accurate.
+              We make every effort to display our products as accurately as possible. However, we cannot guarantee that your device&apos;s display of colors or product details will be completely accurate.
             </p>
 
             <h3 className="text-xl font-heading font-semibold text-charcoal mb-3 mt-6">4.2 Pricing</h3>
@@ -263,7 +263,7 @@ export default function TermsPage() {
             </p>
             <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
               <li>Personalized or custom-made products</li>
-              <li>Items marked as "Final Sale" or "Limited Edition"</li>
+              <li>Items marked as &quot;Final Sale&quot; or &quot;Limited Edition&quot;</li>
               <li>Gift cards</li>
             </ul>
           </section>
@@ -337,7 +337,7 @@ export default function TermsPage() {
 
             <h3 className="text-xl font-heading font-semibold text-charcoal mb-3 mt-6">13.2 Online Dispute Resolution (ODR)</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              EU consumers may access the European Commission's Online Dispute Resolution platform at: <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" className="text-coastal-blue hover:underline">https://ec.europa.eu/consumers/odr</a>
+              EU consumers may access the European Commission&apos;s Online Dispute Resolution platform at: <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" className="text-coastal-blue hover:underline">https://ec.europa.eu/consumers/odr</a>
             </p>
 
             <h3 className="text-xl font-heading font-semibold text-charcoal mb-3 mt-6">13.3 Jurisdiction</h3>
